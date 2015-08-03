@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2015, 1:58:23 PM
+    Author     : harshilkumar
+*/
+
+$font-stack:    Arial, Helvetica, sans-serif;
+$font-size: 14px;
+@mixin color($value){
+   color: $value;
+}
+@mixin colorstyle($value){
+    background-color:$value;
+}
+@mixin margin-left-style($number){
+    margin-left: $number;
+}
+@mixin margin-right-style($number){
+    margin-right: $number;
+}
+@mixin margin-top-style($number){
+    margin-top: $number;
+}
+@mixin margin-bottom-style($number){
+    margin-bottom: $number;
+}

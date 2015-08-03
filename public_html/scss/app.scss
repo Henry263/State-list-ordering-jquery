@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2015, 3:22:49 PM
+    Author     : harshilkumar
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 3, 2015, 10:31:08 AM
+    Author     : harshilkumar
+*/
+@import "scss/common.scss";
+body{
+    font-family: $font-stack; 
+    font-size: $font-size; 
+    @include margin-left-style(10%);
+}
+.inputbox-style{
+    @include color(#FFFFFF);
+    @include colorstyle(lightsalmon);
+    &:hover{
+        @include colorstyle(lightslategrey);
+    }
+}
+
+table {
+    @include margin-left-style(10%);
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+th {
+    padding: 10px;
+}
+
+#stateID, #stateNAME{
+    cursor: pointer;
+}
+.top-margin{
+    @include margin-top-style(5%);
+}
+.left-margin{
+    @include margin-left-style(10%);
+}

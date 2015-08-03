@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Exercise</title>
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <script src="js/scripts/temp.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="styles/app.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="left-margin">
+            <div>
+                <h1>Displaying states list  with their ID!</h1>
+            </div>
+            <div class="left-margin">
+                <label for="kwd_search">Filter & Search:</label> 
+                <input class="inputbox-style" type="text" id="kwd_search" value="" placeholder="Enter text to filter"/>
+            </div>
+            <div class="top-margin">
+                <table id="sort-table">
+                    <thead id="headings" data-toggle="tooltip" title="Click State ID or State name to sort the order!">
+                        <tr>
+                            <th id="stateID">State ID</th>
+                            <th id="stateNAME">State Name</th>
+                    </tr>
+                    </thead>
+                    <tbody id="Stateresults">
+                        <!-- this will be auto-populated -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </body>
+
+
+</html>
